@@ -1,0 +1,1 @@
+web: java -Dgrails.env=$GRAILS_ENV -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/*.jar
